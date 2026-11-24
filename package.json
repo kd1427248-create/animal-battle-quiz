@@ -1,0 +1,12 @@
+{
+  "name": "animal-battle-quiz",
+  "private": true,
+  "version": "1.0.0",
+  "description": "アレフガルド（ソロ＋部屋）",
+  "scripts": {
+    "start": "node room-server.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

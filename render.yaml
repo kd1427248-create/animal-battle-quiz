@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: alefgard
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: "true"
+    startCommand: node room-server.cjs
+    healthCheckPath: /health
